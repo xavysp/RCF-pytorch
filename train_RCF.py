@@ -53,7 +53,7 @@ parser.add_argument('--resume', default='', type=str, metavar='PATH',
                     help='path to latest checkpoint (default: none)')
 parser.add_argument('--tmp', help='tmp folder', default='tmp/RCF')
 # ================ dataset
-parser.add_argument('--dataset', help='root folder of dataset', default='data/HED-BSDS_PASCAL')
+parser.add_argument('--dataset', help='root folder of dataset', default='/opt/dataset')
 args = parser.parse_args()
 
 os.environ["CUDA_DEVICE_ORDER"] = "PCI_BUS_ID"   # see issue #152
