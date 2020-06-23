@@ -1,12 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ProjectFrameBounds">
-    <option name="x" value="819" />
-    <option name="y" value="28" />
-    <option name="width" value="1101" />
-    <option name="height" value="1000" />
+  <component name="ChangeListManager">
+    <list default="true" id="b89fb08d-5a9f-4ac7-8b8e-d1dca71f1dad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rcf_pytorch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rcf_pytorch.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/2018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/2018.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/326025.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/326025.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/iter-450.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/iter-450.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/testw.gif" beforeDir="false" afterPath="$PROJECT_DIR$/doc/testw.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/train_RCF.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_RCF.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1PRY7OkDW6GGP6qyuznWNHpepCI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="train_RCF" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="rcf_pytorch" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train_RCF.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.train_RCF" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b89fb08d-5a9f-4ac7-8b8e-d1dca71f1dad" name="Default Changelist" comment="" />
+      <created>1551550572223</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551550572223</updated>
+      <workItem from="1577492561614" duration="1113000" />
+      <workItem from="1577495231725" duration="11000" />
+      <workItem from="1577895779616" duration="998000" />
+      <workItem from="1578107182850" duration="40000" />
+      <workItem from="1585331630306" duration="1255000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="930" y="309" key="FileChooserDialogImpl" timestamp="1578107211438">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="930" y="309" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1578107211438" />
+    <state x="803" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1578107183381">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="803" y="378" key="com.intellij.ide.util.TipDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1578107183381" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_RCF.py</url>
+          <line>340</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_RCF.py</url>
+          <line>109</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_RCF.py</url>
+          <line>373</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
