@@ -59,7 +59,7 @@ parser.add_argument('--test_list', default='test_pair.lst', type=str)  # SSMIHD:
 parser.add_argument('--test',        default=True, help='Only test the model.', action='store_true')
 parser.add_argument('--output_dir', default='results', help='Output folder.')
 parser.add_argument('--train_dataset', default="BIPED",help='dataset name')
-parser.add_argument('--test_dataset', default='CID', help='dataset name')
+parser.add_argument('--test_dataset', default='NYUD', help='dataset name')
 parser.add_argument('--dataset', help='root folder of dataset', default='/opt/dataset')
 parser.add_argument('--channels_swap', default=[2, 1, 0], type=int)
 parser.add_argument('--mean_pixel_values', default=[103.939, 116.779, 123.68, 137.86],
@@ -106,7 +106,7 @@ def main(args=None):
     load_vgg16pretrain(model)
     if args.resume:
         resu_dir = args.output_dir
-        trained_dir = join(resu_dir,args.train_dataset.lower()+'_'+args.model_name.lower())
+        trained_dir = join(args.train_dataset.lower()+'_'+args.model_name.lower())
         trained_path = join('data',args.resume) if args.train_dataset.lower() == "bsds" \
                 else join(resu_dir,trained_dir,args.resume)
         print("=> loading checkpoint '{}'".format(trained_path))
@@ -350,7 +350,8 @@ def multiscale_test(model, test_loader, arg=None,epoch=None):
     save_mat_dir = join(save_dir, 'pred_mat')
     if not isdir(save_mat_dir):
         os.makedirs(save_mat_dir)
-
+    print("Save dir",save_png_dir)
+    print("Save dir",save_mat_dir)
     model.eval()
     scale = [0.5, 1, 1.5]
 
@@ -377,6 +378,7 @@ def multiscale_test(model, test_loader, arg=None,epoch=None):
             # result_out_test.save(join(save_dir, "%s.png" % filename))
 
             print("Running test [%d/%d]" % (idx + 1, len(test_loader)))
+
     if args.test:
         print("+++ Testing on {} data done, saved in: {}".format(args.test_dataset,save_dir)," +++")
     else:
