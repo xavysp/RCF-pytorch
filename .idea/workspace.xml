@@ -1,19 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b89fb08d-5a9f-4ac7-8b8e-d1dca71f1dad" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rcf_pytorch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rcf_pytorch.iml" afterDir="false" />
+    <list default="true" id="b89fb08d-5a9f-4ac7-8b8e-d1dca71f1dad" name="Default Changelist" comment="inprovement in dataloader fro BIPED">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/data_loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/data_loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/2018.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/2018.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/326025.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/326025.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/iter-450.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/doc/iter-450.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/testw.gif" beforeDir="false" afterPath="$PROJECT_DIR$/doc/testw.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train_RCF.py" beforeDir="false" afterPath="$PROJECT_DIR$/train_RCF.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,16 +33,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="9ed3f5ea-17ba-48e1-b85b-57e83049a117" />
   <component name="ProjectId" id="1PRY7OkDW6GGP6qyuznWNHpepCI" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager">
@@ -64,18 +82,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -91,34 +98,63 @@
       <workItem from="1577895779616" duration="998000" />
       <workItem from="1578107182850" duration="40000" />
       <workItem from="1585331630306" duration="1255000" />
+      <workItem from="1592944192175" duration="349000" />
+      <workItem from="1601133738087" duration="4517000" />
     </task>
+    <task id="LOCAL-00001" summary="inprovement in dataloader fro BIPED">
+      <created>1592944437334</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592944437334</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inprovement in dataloader fro BIPED" />
+    <option name="LAST_COMMIT_MESSAGE" value="inprovement in dataloader fro BIPED" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="930" y="309" key="FileChooserDialogImpl" timestamp="1578107211438">
+    <state x="1191" y="311" key="FileChooserDialogImpl" timestamp="1592944536494">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="930" y="309" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1578107211438" />
-    <state x="803" y="378" key="com.intellij.ide.util.TipDialog" timestamp="1578107183381">
+    <state x="1191" y="311" key="FileChooserDialogImpl/65.24.1855.1056@65.24.1855.1056" timestamp="1592944536494" />
+    <state width="1089" height="279" key="GridCell.Tab.0.bottom" timestamp="1601134210987">
       <screen x="65" y="24" width="1855" height="1056" />
     </state>
-    <state x="803" y="378" key="com.intellij.ide.util.TipDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1578107183381" />
+    <state width="1089" height="279" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1601134210987" />
+    <state width="1089" height="279" key="GridCell.Tab.0.center" timestamp="1601134210987">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1089" height="279" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1601134210987" />
+    <state width="1089" height="279" key="GridCell.Tab.0.left" timestamp="1601134210986">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1089" height="279" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1601134210986" />
+    <state width="1089" height="279" key="GridCell.Tab.0.right" timestamp="1601134210987">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1089" height="279" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1601134210987" />
+    <state x="1003" y="289" key="Vcs.Push.Dialog.v2" timestamp="1601600338562">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="1003" y="289" key="Vcs.Push.Dialog.v2/65.24.1855.1056@65.24.1855.1056" timestamp="1601600338562" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -130,15 +166,18 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/train_RCF.py</url>
-          <line>109</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/train_RCF.py</url>
           <line>373</line>
           <option name="timeStamp" value="10" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/train_RCF.py</url>
+          <line>106</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rcf_pytorch$train_RCF.coverage" NAME="train_RCF Coverage Results" MODIFIED="1601134210976" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

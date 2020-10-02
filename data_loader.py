@@ -31,7 +31,7 @@ class BSDS_RCFLoader(data.Dataset):
         if self.split == 'train':
             self.curr_dataset = args.train_dataset
             self.dataset_dir = join(self.root,args.train_dataset)
-            if args.train_dataset.lower()=='ssmihd':
+            if args.train_dataset.lower()=='biped':
                 self.ssmihd_dir = self.list_path=join(self.dataset_dir,'edges')
                 self.list_path=join(self.ssmihd_dir,args.train_list)
             else:
@@ -39,7 +39,7 @@ class BSDS_RCFLoader(data.Dataset):
         elif self.split == 'test':
             self.curr_dataset = args.test_dataset
             self.dataset_dir = join(self.root, args.test_dataset)
-            if args.test_dataset.lower()=='ssmihd':
+            if args.test_dataset.lower()=='biped':
                 self.ssmihd_dir = self.list_path=join(self.dataset_dir,'edges')
                 self.list_path=join(self.ssmihd_dir,args.test_list)
             else:
@@ -51,7 +51,7 @@ class BSDS_RCFLoader(data.Dataset):
         lines = [line.strip() for line in lines]  # Remove the newline at last.
 
         if self.split == 'train':
-            if args.train_dataset.lower() == 'ssmihd':
+            if args.train_dataset.lower() == 'biped':
                 pairs = [line.split() for line in lines]
                 self.images_path = [pair[0] for pair in pairs]
                 self.edges_path = [pair[1] for pair in pairs]
@@ -63,7 +63,7 @@ class BSDS_RCFLoader(data.Dataset):
             self.images_path = lines
             self.images_name = []  # Used to save temporary edges.
             pa = [line.split() for line in self.images_path]
-            if args.test_dataset.lower() == 'ssmihd':
+            if args.test_dataset.lower() == 'biped':
                 self.images_path = [pair[0] for pair in pa]
                 for i in range(len(self.images_path)):
                     folder, filename = os.path.split(pa[i][0])
@@ -83,7 +83,7 @@ class BSDS_RCFLoader(data.Dataset):
         edge = None
         if self.split == "train":
             # Get edge.
-            if self.curr_dataset.lower() == 'ssmihd':
+            if self.curr_dataset.lower() == 'biped':
                 gt_dir = join(self.dataset_dir, 'edges', 'edge_maps', 'train')
                 edge_path = join(gt_dir, self.edges_path[index])
                 edge = cv2.imread(edge_path, cv2.IMREAD_GRAYSCALE)
@@ -105,12 +105,12 @@ class BSDS_RCFLoader(data.Dataset):
                 edge = edge.astype(np.float32)
 
         # Get image.
-        if self.curr_dataset.lower() == 'ssmihd' and self.split == "train":
+        if self.curr_dataset.lower() == 'biped' and self.split == "train":
             x_dir = join(self.dataset_dir, 'edges', 'imgs', 'train')
             image_path = join(x_dir, self.images_path[index])
             image = cv2.imread(image_path).astype(np.float32)
             image = cv2.resize(image, dsize=(400, 400))
-        elif self.curr_dataset.lower() == 'ssmihd' and self.split != "train":
+        elif self.curr_dataset.lower() == 'biped' and self.split != "train":
             x_dir = join(self.dataset_dir, 'edges', 'imgs', 'test')
             image_path = join(x_dir, self.images_path[index])
             image = cv2.imread(image_path).astype(np.float32)

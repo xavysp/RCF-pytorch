@@ -50,16 +50,16 @@ parser.add_argument('--print_freq', '-p', default=100, type=int,
                     metavar='N', help='print frequency (default: 50)')
 parser.add_argument('--gpu', default='0', type=str, help='GPU ID')
 parser.add_argument('--cpu', default=False, type=bool, help='')
-parser.add_argument('--resume', default='checkpoint_epoch17.pth', type=str, metavar='PATH',
+parser.add_argument('--resume', default='checkpoint_epoch19.pth', type=str, metavar='PATH',
                     help='path to latest checkpoint (default: none)') # RCFcheckpoint_epoch12.pth
 parser.add_argument('--tmp', help='tmp folder', default='RCF')
 # ================ dataset
 parser.add_argument('--train_list', default='train_rgb.lst', type=str)  # SSMIHD: train_rgb_pair.lst
 parser.add_argument('--test_list', default='test_pair.lst', type=str)  # SSMIHD:vis_test.lst
 parser.add_argument('--test',        default=True, help='Only test the model.', action='store_true')
-parser.add_argument('--output_dir', default='/opt/results', help='Output folder.')
-parser.add_argument('--train_dataset', default="BSDS",help='dataset name')
-parser.add_argument('--test_dataset', default='BSDS', help='dataset name')
+parser.add_argument('--output_dir', default='results', help='Output folder.')
+parser.add_argument('--train_dataset', default="BIPED",help='dataset name')
+parser.add_argument('--test_dataset', default='CID', help='dataset name')
 parser.add_argument('--dataset', help='root folder of dataset', default='/opt/dataset')
 parser.add_argument('--channels_swap', default=[2, 1, 0], type=int)
 parser.add_argument('--mean_pixel_values', default=[103.939, 116.779, 123.68, 137.86],
